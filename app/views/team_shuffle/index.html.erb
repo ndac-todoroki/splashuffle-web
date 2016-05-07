@@ -1,0 +1,34 @@
+<div class="column align-spaced">
+  <div class="row align-spaced">
+    <h1>チームごとのブキ</h1>
+  </div>
+  <div class="row align-spaced large-unstack">
+    <div class="teamA">
+      <h2>アルファチーム</h2>
+      <% @team1.each do |weapon| %>
+          <ul><%= weapon.name_ja %></ul>
+      <% end %>
+    </div>
+    <div class="teamB">
+      <h2>ブラボーチーム</h2>
+      <% @team2.each do |weapon| %>
+          <ul><%= weapon.name_ja %></ul>
+      <% end %>
+    </div>
+  </div>
+  <div class="row align-spaced">
+    <input id="fe_text" name="" rows="7" cols="100" type=hidden value="<%= @result %>" />
+  </div>
+  <div class="row align-spaced">
+    <button class="large expanded button primary" data-clipboard-target='fe_text'
+            data-clipboard-text='Default clipboard text from attribute'
+            id='d_clip_button'>
+      結果をコピー
+    </button>
+  </div>
+  <div class="row align-spaced">
+    <p>
+      ブキを更新するにはページを更新してください。
+    </p>
+  </div>
+</div>
