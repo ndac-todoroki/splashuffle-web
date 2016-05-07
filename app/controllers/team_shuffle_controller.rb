@@ -2,10 +2,11 @@ class TeamShuffleController < ApplicationController
   def index
     @team1 = Array.new
     @team2 = Array.new
+    ids = Weapon.pluck(:id)
 
     4.times do
-      @team1 << Weapon.find( Weapon.pluck(:id).sample )
-      @team2 << Weapon.find( Weapon.pluck(:id).sample )
+      @team1 << Weapon.find( ids.sample )
+      @team2 << Weapon.find( ids.sample )
     end
 
     result = ""
