@@ -86,7 +86,7 @@ pickle-email-*.html
 **.swp
 
 #database settings.
-config/database.yml
+#config/database.yml
 
 #database seeds
 #db/seeds.rb
