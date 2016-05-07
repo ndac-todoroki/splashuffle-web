@@ -1,0 +1,4 @@
+123.224.4.238 - - [08/May/2016:06:00:46 +0900] "GET / HTTP/1.1" 500 77 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
+123.224.4.238 - - [08/May/2016:06:00:46 +0900] "GET /favicon.ico HTTP/1.1" 500 77 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
+123.224.4.238 - - [08/May/2016:06:00:46 +0900] "GET /favicon.ico HTTP/1.1" 500 77 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
+123.224.4.238 - - [08/May/2016:06:00:56 +0900] "GET /shuffle/team HTTP/1.1" 500 77 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
