@@ -12,12 +12,12 @@ class TeamShuffleController < ApplicationController
     result = ""
 
     result << "◆アルファチーム\n"
-    @team1.each do |weap|
-      result << "\t" + weap.name_ja + "\n"
+    @team1.each do |weapon|
+      result << "\t" + weapon.name_ja + "\n"
     end
     result << "◆ブラボーチーム\n"
-    @team2.each do |weap|
-      result << "\t" + weap.name_ja + "\n"
+    @team2.each do |weapon|
+      result << "\t" + weapon.name_ja + "\n"
     end
 
     @result = result
