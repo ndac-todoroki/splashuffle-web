@@ -4,7 +4,6 @@
 
 $(document).ready ->
   clip = new Clipboard '#d_clip_button'
-  #console.log clip
   #return
 
   $('#d_clip_button').on 'click', ->
