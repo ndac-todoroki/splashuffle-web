@@ -17,12 +17,7 @@
     </div>
   </div>
   <div class="row align-spaced">
-    <input id="fe_text" name="" rows="7" cols="100" type=hidden value="<%= @result %>" />
-  </div>
-  <div class="row align-spaced">
-    <button class="large expanded button primary" data-clipboard-target='fe_text'
-            data-clipboard-text='Default clipboard text from attribute'
-            id='d_clip_button'>
+    <button class="large expanded button primary" data-clipboard-text='<%= @result %>' id='d_clip_button'>
       結果をコピー
     </button>
     <a href="" class="large expanded button secondary">更新</a>

@@ -14,7 +14,8 @@
 //= require jquery_ujs
 //= require foundation
 //= require turbolinks
-//= require zeroclipboard
+//= require clipboard
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+

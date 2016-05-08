@@ -3,7 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $(document).ready ->
-  clip = new ZeroClipboard($('#d_clip_button'))
+  clip = new Clipboard '#d_clip_button'
+  #console.log clip
   #return
 
   $('#d_clip_button').on 'click', ->
