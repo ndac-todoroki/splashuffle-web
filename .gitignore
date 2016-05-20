@@ -95,3 +95,4 @@ pickle-email-*.html
 .env
 .rbenv-gemsets
 .ruby-version
+h2o.conf
